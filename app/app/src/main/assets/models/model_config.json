@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "dataset": "Cholec",
+  "checkpoint": "dazzling-carnation-75",
+  "input": {
+    "name": "image",
+    "shape": [
+      1,
+      3,
+      256,
+      256
+    ],
+    "color_order": "RGB",
+    "value_range": [
+      0.0,
+      1.0
+    ]
+  },
+  "frame_outputs": {
+    "segmentation_logits": [
+      1,
+      10,
+      256,
+      256
+    ],
+    "object_features": [
+      1,
+      10,
+      165
+    ],
+    "presence": [
+      1,
+      10
+    ]
+  },
+  "relation_input": {
+    "name": "object_context",
+    "shape": [
+      10,
+      8,
+      165
+    ]
+  },
+  "relation_output": {
+    "name": "relation_logits",
+    "shape": [
+      14,
+      9
+    ]
+  },
+  "classes": [
+    {
+      "id": 1,
+      "name": "abdominal_wall",
+      "color": [
+        205,
+        223,
+        215
+      ]
+    },
+    {
+      "id": 2,
+      "name": "liver",
+      "color": [
+        180,
+        76,
+        223
+      ]
+    },
+    {
+      "id": 3,
+      "name": "gastrointestinal_tract",
+      "color": [
+        248,
+        201,
+        62
+      ]
+    },
+    {
+      "id": 4,
+      "name": "fat",
+      "color": [
+        105,
+        197,
+        235
+      ]
+    },
+    {
+      "id": 5,
+      "name": "grasper",
+      "color": [
+        112,
+        185,
+        98
+      ]
+    },
+    {
+      "id": 6,
+      "name": "connective_tissue",
+      "color": [
+        73,
+        102,
+        65
+      ]
+    },
+    {
+      "id": 7,
+      "name": "blood",
+      "color": [
+        195,
+        81,
+        97
+      ]
+    },
+    {
+      "id": 8,
+      "name": "cystic_duct",
+      "color": [
+        53,
+        97,
+        114
+      ]
+    },
+    {
+      "id": 9,
+      "name": "hook",
+      "color": [
+        227,
+        85,
+        147
+      ]
+    },
+    {
+      "id": 10,
+      "name": "gallbladder",
+      "color": [
+        216,
+        112,
+        72
+      ]
+    }
+  ],
+  "verbs": [
+    "grasp",
+    "retract",
+    "dissect",
+    "coagulate",
+    "clip",
+    "cut",
+    "aspirate",
+    "irrigate",
+    "pack"
+  ],
+  "possible_pairs": [
+    [
+      5,
+      4
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      9,
+      4
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      9,
+      8
+    ],
+    [
+      9,
+      7
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      9,
+      6
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      9,
+      2
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      9,
+      1
+    ]
+  ],
+  "fps": 25,
+  "num_frames": 8,
+  "time_span_seconds": 1.0,
+  "temporal_offsets": [
+    -25,
+    -21,
+    -18,
+    -14,
+    -11,
+    -7,
+    -4,
+    0
+  ],
+  "mask_threshold": 0.5,
+  "area_threshold": 150,
+  "relation_threshold": 0.5,
+  "smoothing_window": 25
+}

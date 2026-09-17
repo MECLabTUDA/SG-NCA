@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mec_teal">#FF2E7692</color>
+    <color name="mec_teal_dark">#FF20566D</color>
+    <color name="mec_red">#FFB80D23</color>
+    <color name="mec_ink">#FF1F0A1E</color>
+    <color name="mec_ink_soft">#FF32162F</color>
+    <color name="mec_canvas">#FFF3F7F8</color>
+    <color name="mec_surface">#FFFFFFFF</color>
+    <color name="mec_border">#FFD8E3E6</color>
+    <color name="mec_text_secondary">#FF596970</color>
+    <color name="mec_on_dark">#FFFFFFFF</color>
+    <color name="mec_on_dark_muted">#FFDCCFD9</color>
+    <color name="mec_error">#FF9E1021</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

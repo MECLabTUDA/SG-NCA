@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">SG-NCA</string>
+    <string name="screen_title">SG-NCA</string>
+    <string name="manuscript_title">Sterilizable Scene Graph Generation for Operating Rooms</string>
+    <string name="video_counter_empty">Cholec VID01 · —/20</string>
+    <string name="video_counter">Cholec VID01 · %1$d/%2$d</string>
+    <string name="play_all">Play all</string>
+    <string name="play_from_here">Play from here</string>
+    <string name="replay_all">Replay all</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="previous_frame">Previous</string>
+    <string name="next_frame">Next</string>
+    <string name="initializing">Loading on-device models…</string>
+    <string name="ready">Ready for on-device inference</string>
+    <string name="analyzing_frame">Analyzing frame %1$d of %2$d…</string>
+    <string name="pause_requested">Pause requested · finishing the current frame…</string>
+    <string name="paused_at_frame">Paused · frame %1$d of %2$d</string>
+    <string name="sequence_complete">Sequence complete · processed entirely on device</string>
+    <string name="frame_complete">Frame complete · processed on device</string>
+    <string name="cached_result">Viewing cached result</string>
+    <string name="sequence_progress">Sequence</string>
+    <string name="context_progress">Current temporal context</string>
+    <string name="segmentation_legend">Segmentation legend</string>
+    <string name="legend_hint">Detected classes · colors match the mask overlay</string>
+    <string name="semantic_relations">Semantic relations</string>
+    <string name="relations_hint">Subject and object colors match their segmentation masks</string>
+    <string name="scene_graph">Scene graph</string>
+    <string name="scene_graph_hint">Mask-colored nodes · gray lines show touching borders · red arrows show semantic relations</string>
+    <string name="scene_graph_empty">Analyze a frame to build its scene graph.</string>
+    <plurals name="scene_graph_description">
+        <item quantity="one">%1$d detected object with %2$d semantic and %3$d touching relations</item>
+        <item quantity="other">%1$d detected objects with %2$d semantic and %3$d touching relations</item>
+    </plurals>
+    <string name="inference_timing">Inference timing</string>
+    <string name="no_result">Press Play all to analyze the bundled sequence.</string>
+    <string name="no_relations">No relations passed the confidence threshold.</string>
+    <string name="preview_description">Surgical frame with segmentation overlay</string>
+    <string name="logo_description">MEC Lab logo</string>
+</resources>

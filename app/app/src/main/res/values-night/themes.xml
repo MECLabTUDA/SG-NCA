@@ -1,0 +1,18 @@
+<resources>
+    <style name="Theme.SGNCA" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/mec_teal</item>
+        <item name="colorPrimaryVariant">@color/mec_teal_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/mec_red</item>
+        <item name="colorSecondaryVariant">@color/mec_red</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSurface">@color/mec_surface</item>
+        <item name="colorOnSurface">@color/mec_ink</item>
+        <item name="android:colorAccent">@color/mec_red</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:navigationBarColor">@color/mec_canvas</item>
+        <item name="android:statusBarColor">@color/mec_teal_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">@color/mec_canvas</item>
+    </style>
+</resources>
